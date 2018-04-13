@@ -27,7 +27,7 @@ displayHouses = () => {
             {house.type}
           </Card.Header>
           <Card.Description>
-            Info: <a>{House.link}</a>
+            Motto: <a>{house.words}</a>
           </Card.Description>
         </Card.Content>
       </Card>
