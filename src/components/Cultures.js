@@ -2,9 +2,9 @@ import axios from 'axios';
 import React, { Component } from 'react';
 import { Card, Container, Header, Image } from 'semantic-ui-react';
 import img from '../images/img.png';
-
-class Characters extends Component {
-  state = { characters: [] }
+//switch characters to appropriate culture api info
+class Cultures extends Component {
+  state = { cultures: [] }
 
   componentDidMount() {
     axios.get('https://api.got.show/api/characters/')
